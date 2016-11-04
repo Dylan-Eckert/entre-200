@@ -1,0 +1,153 @@
+// Place all the styles related to the Surveys controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.ebdbbnb {
+  color: white;
+  float: left;
+  margin: 0 auto;
+  margin: 0px 20px 0px 0px;
+  padding: 10px 0px 12px 15px;
+}
+
+.revs {
+  color: white;
+  margin: 10px 0px 10px 0px;
+}
+
+.add-rev {
+  color: white;
+  margin: -5px 0px 0px 6px;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  margin: 0px 0px 0px 0px;
+  padding: 6px 0px 0px 0px;
+}
+#table-place {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  max-width: 1200px;
+}
+#rent-type {
+  width: 100px;
+  padding: 10px;
+}
+#rent-desc {
+  width: 968px;
+}
+#place-type {
+  width: 100px;
+  padding: 0px 50px 20px 10px;
+  vertical-align: top;
+}
+#place-desc {
+  padding: 0px 50px 10px 0px;
+  margin: 0px 0px 0px 0px;
+  vertical-align: top;
+  max-width: 968px;
+}
+.links {
+  color: white;
+  font-size: 20px;
+  margin-left: 45%;
+}
+.links-td {
+  padding: 0px 10px 0px 0px;
+  vertical-align: top;
+}
+// places form CSS
+.wrap {
+  background-image: url("\a   http://www.mattdustin.com/wp-content/uploads/2013/11/6956519-abstract-grey-background-in-the-form-of-a-grid-in-a-grunge-style.jpg");
+  max-width: 1200px;
+  min-height: 800px;
+  max-height: 10000px;
+}
+.place-show {
+  border-radius: 10px;
+  background-color: black;
+  margin-left: 150px;
+  padding: 15px 20px 10px 20px;
+  max-height: 1000px;
+  max-width: 720px;
+  color: white;
+}
+.revs-box {
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: black;
+  padding: 0px 0px 0px 15px;
+  max-height: 10000px;
+  width: 515px;
+  margin-left: 5px;
+  margin-top: 5px;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.rev-form {
+  border-radius: 10px;
+  background-color: black;
+  margin: 0 auto;
+  margin: 10px 0px 0px 270px;
+  height: 46px;
+  width: 80px;
+  float: left;
+}
+.rev-form-wrap {
+  background-color: black;
+  border-radius: 10px;
+  width: 200px;
+  height: 280px;
+  margin: 0px 0px 0px -120px;
+}
+.rev-form-base {
+  border-radius: 10px;
+  background-color: black;
+  margin: -3px 0px 0px 0px;
+  width: 200px;
+  padding: 5px 20px;
+  float: left;
+}
+.rev-form-label {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+.rev-form-input {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  height: 35px;
+}
+.form-wrap {
+  background-color: black;
+  border-radius: 10px;
+  width: 720px;
+  height: 580px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.form-base {
+  border-radius: 10px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.form-label {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px 0px;
+}
+.form-input {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+.text {
+  color: white;
+}

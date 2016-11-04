@@ -1,0 +1,52 @@
+<%= form_for @survey do |f| %>
+    <% if @survey.errors.any? %>
+      <div>
+        <h2>
+          Please fix the following errors:
+        </h2>
+        <ul>
+          <% @survey.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+<div class="form-wrap">
+  <p class="form-base">
+    <%= f.label :name, class: "form-label"%><br>
+    <%= f.text_field :name, class: "form-input"%>
+  </p>
+  <p class="form-base">
+    <%= f.label :'How old are you? (1-18, 19-24, 25-34, 35-44, 45-54, 55+)', class: "form-label" %><br>
+    <%= f.text_field :q1, class: "form-input" %>
+  </p>
+  <p class="form-base">
+    <%= f.label :'On a scale from 1-10 (10 = PARTY GOD, 1 = what’s a party?) how often do you go to parties?', class: "form-label" %><br>
+    <%= f.text_field :q2, class: "form-input" %>
+  </p>
+  <p class="form-base">
+    <%= f.label :'On a scale from 1-10 (10 = I LOVE PARTIES, 1 = I don’t socialize) how much do you enjoy parties?', class: "form-label" %><br>
+    <%= f.text_field :q3, class: "form-input" %>
+  </p>
+  <p class="form-base">
+    <%= f.label :'Do you use a camelbak? Why?', class: "form-label" %><br>
+    <%= f.text_field :q4, class: "form-input" %>
+  </p>
+  <p class="form-base">
+    <%= f.label :'Do you ever lose your drink/get it confused with another partygoers? (Y/N)', class: "form-label" %><br>
+    <%= f.text_field :q5, class: "form-input" %>
+  </p>
+  <p class="form-base">
+    <%= f.label :'Do you carry a water bottle around with you all the time for hydration? (Y/N)', class: "form-label" %><br>
+    <%= f.text_field :q6, class: "form-input" %>
+  </p>
+  <p class="form-base">
+    <%= f.label :'Would you buy a camelbak with two pouches for extended water capacity, mixed drinks, chaser and beverage, or booze and hydration? Why/Why not?', class: "form-label" %><br>
+    <%= f.text_field :q7, class: "form-input" %>
+  </p>
+
+  <p class="form-base">
+    <%= f.submit %>
+  </p>
+</div>
+<% end %>

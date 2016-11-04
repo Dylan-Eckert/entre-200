@@ -1,0 +1,37 @@
+<div class="wrap">
+  <div class="place-show">
+    <p>
+      <strong class="text">Name</strong><br>
+      <%= @survey.name %>
+    </p>
+    <p>
+      <strong class="text">How old are you? (1-18, 19-24, 25-34, 35-44, 45-54, 55+)</strong><br>
+      <%= @survey.q1 %>
+    </p>
+    <p>
+      <strong class="text">On a scale from 1-10 (10 = PARTY GOD, 1 = what’s a party?) how often do you go to parties?</strong><br>
+      <%= @survey.q2 %>
+    </p>
+    <p>
+      <strong class="text">On a scale from 1-10 (10 = I LOVE PARTIES, 1 = I don’t socialize) how much do you enjoy parties?</strong><br>
+      <%= @survey.q3 %>
+    </p>
+    <p>
+      <strong class="text">Do you use a camelbak? Why?</strong><br>
+      <%= @survey.q4 %>
+    </p>
+    <p>
+      <strong class="text">Do you ever lose your drink/get it confused with another partygoers? (Y/N)</strong><br>
+      <%= @survey.q5 %>
+    </p>
+    <p>
+      <strong class="text">Do you carry a water bottle around with you all the time? (Y/N)</strong><br>
+      <%= @survey.q6 %>
+    </p>
+    <p>
+      <strong class="text">Would you buy a camelbak with two pouches for extended water capacity, mixed drinks, chaser and beverage, or booze and hydration? Why/Why not?</strong><br>
+      <%= @survey.q7 %>
+    </p>
+  </div>
+  <td class="link-new-survey"><%= link_to 'New Survey', new_survey_path(), class: "links" %></td>
+</div>
